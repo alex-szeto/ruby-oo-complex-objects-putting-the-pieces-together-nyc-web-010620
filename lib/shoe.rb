@@ -6,7 +6,7 @@ class Shoe
     @brand = "Nike"
   end
   
-  attr_accessor :color, :size, :material, :condition
+  attr_accessor :color, :size, :material, :condition, brand
   
   def cobble
     puts "the shoe has been repaired"
